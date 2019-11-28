@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sec</string>
+    <string name="exit">Exit</string>
+    <string name="hobby">Hobby</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender</string>
+    <string name="confirm">Confirm</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="returnn">Return</string>
+    <string name="go">Go</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sixthActivity"
+    android:orientation="horizontal">
+
+
+    <ListView
+        android:id="@+id/listview3"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="630dp"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="-390dp"
+        android:layout_marginTop="630dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:hint="data" />
+
+
+</LinearLayout>

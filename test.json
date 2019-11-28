@@ -1,0 +1,7 @@
+{
+  "name": "Azi",
+  "Info": [
+    {"age": 20, "sex": "male"},
+    {"age": 21, "sex": "femal"}
+  ]
+}

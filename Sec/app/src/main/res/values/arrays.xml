@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Hobby">
+        <item>电影</item>
+        <item>游戏</item>
+        <item>音乐</item>
+        <item>看书</item>
+    </string-array>
+    <string-array name="Location">
+        <item>赣州</item>
+        <item>上海</item>
+        <item>杭州</item>
+        <item>广州</item>
+        <item>珠海</item>
+    </string-array>
+    <string-array name="List">
+        <item>User</item>
+        <item>Password</item>
+        <item>Gender</item>
+        <item>Location</item>
+        <item>Hobby</item>
+    </string-array>
+</resources>

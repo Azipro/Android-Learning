@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="Updata user"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ed4"
+        android:hint="id"
+        android:textSize="24dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:textSize="20dp"
+        android:text="Get"/>
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:hint="user"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_marginTop="10dp"
+        android:hint="password"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:entries="@array/sex"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_marginTop="10dp"
+        android:hint="age"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_marginTop="50dp"
+        android:text="Confirm"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

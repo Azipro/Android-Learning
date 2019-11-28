@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="title_activity_slide">SlideActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="ban">
+        <item>Name</item>
+        <item>Email</item>
+        <item>Hobby</item>
+        <item>Home</item>
+        <item>University</item>
+    </string-array>
+    <string name="title_activity_tab">tabActivity</string>
+    <string name="section_format">Cat: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">1</string>
+    <string name="tab_text_2">2</string>
+    <string name="tab_text_3">3</string>
+    <string name="tab_text_4">4</string>
+
+</resources>

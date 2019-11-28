@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:hint="User"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:hint="Password"
+        android:password="true"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="36dp"
+        android:text="Submit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed2"
+        app:layout_constraintVertical_bias="0.083"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="120dp"
+        android:gravity="bottom"
+        android:text="User："
+
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="76dp"
+        android:text="Cancel"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed2"
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="333dp"
+        android:layout_height="59dp"
+        android:gravity="bottom"
+        android:text="Psd："
+
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
