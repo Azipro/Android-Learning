@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 "  ]\n" +
                 "}";
 
-        //String json = getString("D:\\AndroidStudy\\Sev\\app\\src\\main\\java\\com\\example\\sev\\test.txt");
+//        String json = getString("test.json");
 
         tv1 = findViewById(R.id.tv1);
         tv2 = findViewById(R.id.tv2);
@@ -64,18 +64,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public static String getString(String path) {
-        String file = "";
-        try {
-            FileInputStream f = new FileInputStream(path);
-            BufferedReader bi = new BufferedReader(new InputStreamReader(f));
-            String line = "";
-            while ((line = bi.readLine()) != null) {
-                file += line;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return file;
-    }
+//    public String getString(String Filename) {
+//        String file = "";
+//        try {
+//            FileInputStream f = openFileInput(Filename);
+//            byte[] buffers = new byte[f.available()];
+//            f.read(buffers);
+//            file = new String(buffers);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return file;
+//    }
 }
